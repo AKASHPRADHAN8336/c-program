@@ -1,0 +1,15 @@
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+
+#include <iostream>
+using namespace std;
+int add(int a,int b);
+int main() {
+    // Write C++ code here
+
+    cout << add (4,5);
+}
+
+int add(int a, int b){
+    return a+b;
+}
