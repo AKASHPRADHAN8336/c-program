@@ -1,0 +1,23 @@
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+
+#include <iostream>
+using namespace std;
+int main() {
+    int age;
+
+    cout << "Please enter your age : ";
+    cin >> age;
+
+    if(age > 30){
+        cout << "You are eligible";
+    }
+    else if(age >=18 && age <= 21){
+        cout << "you are not eligible";
+    }
+    else{
+        cout << "bye bye";
+    }
+    return 0;
+
+}
