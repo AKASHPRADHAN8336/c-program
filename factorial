@@ -1,0 +1,28 @@
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+
+#include <iostream>
+using namespace std;
+
+int fac(int num);
+
+int main() {
+    int num;
+
+    cout << "Enter number to find the factorial : ";
+    cin >> num;
+
+
+    int ans = fac(num);
+    cout << ans;
+    return 0;
+    
+}
+
+
+int fac(int a){
+    if(a == 1){
+        return 1;
+    }
+    return a *  fac(a-1);
+}
